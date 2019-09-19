@@ -5,7 +5,7 @@ function setup(){
     for(var l=0;l<4000;l=l+11){
         beginShape();
         noFill();
-        strokeWeight(l/2200);
+        strokeWeight(l/5000);
         stroke(150,l/25,175);
         circle(windowWidth/2,windowHeight/2,l);
     }
